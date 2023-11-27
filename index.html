@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>General Trivia</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/jass.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body class="bg-dark text-light">
+    <main>
+      <div id="question-answer-display">
+        <h1>General Trivia Challenge</h1>
+        <hr/>
+        <pre class="game-card text-dark bg-light p-5" id="question-display"></pre>
+        
+        <div id="options-display"></div>
+      </div>
+      <div id ="timer-display" class= "card timer-card">
+        <div class = "timer-text">
+          <div class="large-font timer-count" id="timer-countdown"></div>
+          <p>seconds remaining</p>
+          <div class="large-font timer-count" id="resultEl"></div>
+          <p>current score</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Added link to the jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script type="text/javascript" src="assets/js/script.js" ></script>
+  </body>
+</html>
